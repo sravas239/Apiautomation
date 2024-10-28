@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-25T16:14:41 IST" name="Cross Browser Suite" finished-at="2024-10-25T16:15:16 IST" duration-ms="34905">
+    <groups>
+    </groups>
+    <test started-at="2024-10-25T16:14:41 IST" name="Firefox Test" finished-at="2024-10-25T16:15:04 IST" duration-ms="22620">
+      <class name="com.test.ECommercesite">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.test.ECommercesite@548a24a]" started-at="2024-10-25T16:14:41 IST" name="setup" finished-at="2024-10-25T16:14:58 IST" duration-ms="16240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutFlowTest()[pri:0, instance:com.test.ECommercesite@548a24a]" started-at="2024-10-25T16:14:58 IST" name="checkoutFlowTest" finished-at="2024-10-25T16:14:59 IST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutFlowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ECommercesite@548a24a]" started-at="2024-10-25T16:14:59 IST" name="tearDown" finished-at="2024-10-25T16:15:04 IST" duration-ms="4631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.ECommercesite -->
+    </test> <!-- Firefox Test -->
+    <test started-at="2024-10-25T16:15:04 IST" name="Chrome Test" finished-at="2024-10-25T16:15:16 IST" duration-ms="12258">
+      <class name="com.test.ECommercesite">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.test.ECommercesite@1807f5a7]" started-at="2024-10-25T16:15:04 IST" name="setup" finished-at="2024-10-25T16:15:15 IST" duration-ms="10569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutFlowTest()[pri:0, instance:com.test.ECommercesite@1807f5a7]" started-at="2024-10-25T16:15:15 IST" name="checkoutFlowTest" finished-at="2024-10-25T16:15:16 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutFlowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ECommercesite@1807f5a7]" started-at="2024-10-25T16:15:16 IST" name="tearDown" finished-at="2024-10-25T16:15:16 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.ECommercesite -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Cross Browser Suite -->
+</testng-results>
